@@ -1,0 +1,1 @@
+isThisMyName('Adam');
