@@ -2,10 +2,11 @@ isThisMyName('Adam');
 
 
 function isThisMyName(firstName) {
-    if (firstName === "Natasza") {
+    firstNameLowerCase = firstName.toLowerCase()
+    if (firstNameLowerCase === "natasza") {
         result = true;
     } else {
         result = false;
     }
     console.log(result);
-    }
+}
