@@ -4,13 +4,9 @@ isThisBoolean('true'); // false
 
 
 function isThisBoolean(providedData) {
-    if ( providedData === false ) {
-        result = true
+    dataType = (typeof providedData)
+    if (dataType === "boolean") {
+        console.log(true)
     } else {
-        if ( providedData === true ) {
-            result = true
-        } else {
-            result = false}
-    }
-    console.log(result)
+        console.log(false)}
 }
