@@ -3,10 +3,7 @@ isTextUppercase('HELLO'); // true
 
 
 function isTextUppercase(text) {
-    if (text === text.toUpperCase()){
-        result = true;
-    } else {
-        result = false;
+    if (text === text.toUpperCase()) {
+        return true
     }
-    console.log(result)
-}
+   
