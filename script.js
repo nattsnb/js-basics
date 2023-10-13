@@ -6,5 +6,5 @@ getBillboardPrice('To be, or not to be', 20); // 380
 function getBillboardPrice(string, charPrice) {
     stringLength = string.length
     billboardPrice = stringLength * charPrice
-    console.log(billboardPrice)
+    return billboardPrice
 }
